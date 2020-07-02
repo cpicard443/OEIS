@@ -199,6 +199,7 @@ welcome()
 arguments = sys.argv
 file = open(".oeis", "r")
 content = file.readlines()
+file.close()
 given_parameters = str(content[16]).replace("\n", "")
 parameters = valid_config(given_parameters) #if the given parameters are not valid, we use valid parameters
 print("Configuration:", *parameters)
@@ -249,6 +250,8 @@ while search_not_stop:
 			analyse_page_search(soup, nb_result)
 			if nb_result < 10:
 				search_not_stop = False
+		else:
+			search_not_stop = False
 		if search_not_stop:
 			next_page = input("Go to next page ? [y/n] ")
 			if next_page.replace("\n", "") != "y":
