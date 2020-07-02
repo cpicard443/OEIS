@@ -1,0 +1,19 @@
+YOU MUST NOT DELETE THIS FIRST LINE. On the 16th line of the file, write the parameters you want to use for the search separated by a single space. Below is a description of the parameters
+-default: can't be used with other parameters, use the default parameter of oeis website
+-o: hide offset section
+-c: hide comments section
+-r: hide references section
+-l: hide links section
+-f: hide formula section
+-maple: hide mapple section
+-mathematica: hide mathematica section
+-prog: hide prog section
+-crossrefs: hide crossrefs section
+-k: hide keyword section
+-a: hide author section
+-extensions: hide extensions section
+-example: hide example section
+-s: hide status section
+-o -c -r -l -f -maple -mathematica -prog -crossrefs -k -a -extensions -example
+YOU MUST NOT DELETE THIS 18TH LINE. On the 19th line of this file write -relevance -references -number -modified -created to indicate how to sort the search. Use -ask if you want to be ask how to sort the results
+-relevance
