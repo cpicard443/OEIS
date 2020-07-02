@@ -14,6 +14,6 @@ YOU MUST NOT DELETE THIS FIRST LINE. On the 16th line of the file, write the par
 -extensions: hide extensions section
 -example: hide example section
 -s: hide status section
--o -c -r -l -f -maple -mathematica -prog -crossrefs -k -a -extensions -example
+-default
 YOU MUST NOT DELETE THIS 18TH LINE. On the 19th line of this file write -relevance -references -number -modified -created to indicate how to sort the search. Use -ask if you want to be ask how to sort the results
 -relevance
