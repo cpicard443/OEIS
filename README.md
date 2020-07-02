@@ -12,6 +12,9 @@ Download all the files to use the program. The file `.oeis` has to be in the sam
 
     python3 oeis.py -search
 You must use spaces as a separator, do not use commas for your search.
+
+The results of a search with some hidden sections. The others results are displayed below.
+
 ![enter image description here](https://raw.githubusercontent.com/cpicard443/OEIS/master/output_search.png)
 
 **To reach the page of a specific sequence do:**
