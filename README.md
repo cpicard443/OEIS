@@ -17,6 +17,10 @@ The results of a search with some hidden sections. The others results are displa
 
 ![enter image description here](https://raw.githubusercontent.com/cpicard443/OEIS/master/output_search.png)
 
+An other search with a different configuration:
+
+![enter image description here](https://raw.githubusercontent.com/cpicard443/OEIS/master/more_info.png)
+
 **To reach the page of a specific sequence do:**
 
     python3 oeis.py -sequence
